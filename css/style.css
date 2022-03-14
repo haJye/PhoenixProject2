@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@media (min-width: 1280px) {
+    
+}
+
+@media (min-width: 320px) and(max-width: 1279px) {
+    
+}
