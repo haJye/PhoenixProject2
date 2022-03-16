@@ -25,7 +25,11 @@
         background-repeat: no-repeat;
         background-color: #382459;
     }
-    .back-photo img{
+    .back-photo1 img{
+        position: absolute;
+        width: 100vw;
+    }
+    .back-photo2 img{
         position: absolute;
         width: 100vw;
     }
