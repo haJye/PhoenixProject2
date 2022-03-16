@@ -44,8 +44,11 @@
         height: 20px;
         top: 35.16px; 
     }
+    /* .head-part{
+      
+    } */
     .students-div{
-        width: 256px;
+        width: 300px;
         height: 68px;
     }
     .studentsh1{
@@ -56,6 +59,11 @@
         line-height: 32px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        line-height: 32px;
         padding-top: 75%;
+        padding-left: 15%;
+    }
+    .studentsp p{
+        color: white;
     }
 }
