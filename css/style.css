@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +7,249 @@
 }
 
 @media (min-width: 1280px) {
+    /*   =========   block 5   =========   */
+    .block-5 {
+        background: #2E1E49;
+        height: 720px;
+        width: 100%;
+       
+    }
+    .block-5 .wrapper {
+        display: flex;
+        padding: 106px 0 0 120px;
+    }
+
+    .block-5 .wrapper .sistem {
+        margin-right: 74px;
+    }
+
+    .block-5 .wrapper .sistem h2,
+    .block-5 .wrapper .web h2 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        color: #30FFCD;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-family: 'Oswald';
+        margin-bottom: 60px;
+    }
+
+    .block-5 .wrapper .sistem .title2 {
+        display: none;
+    }
+
+    .block-5 .wrapper .choice {
+        display: none;
+    }
+
+    .block-5 .wrapper .sistem .text{
+        width: 436px;
+    }
+    .block-5 .wrapper .web .text {
+        width: 344.3px;
+    }
+
+    .block-5 .wrapper .sistem .text p,
+    .block-5 .wrapper .web .text p {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 26px;
+    }
+
+    .block-5 .wrapper .sistem .text .text-inner img {
+        display: none;
+    }
+
+    .block-5 .wrapper .btn {
+        width: 192px;
+        background: transparent;
+        color: #33DFC0;
+        padding: 10px;
+        border: 2px solid #33DFC0;
+        border-radius: 48px;
+        margin-top: 38.26px;
+        margin-left: -12px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        cursor: pointer;
+    }
+
+    /*   =========   block 6   =========   */
+
+    .block-6 {
+        background: #fff;
+        padding: 84px 0 0 120px;
+    }
+
+    .block-6 .wrapper {
+        position: relative;
+    }
+    .block-6 .wrapper h2{
+        font-family: 'Oswald';
+        color: #382459;
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 50px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+
+    .block-6 .wrapper p{
+        width: 362px;
+        color: #382459;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 74px;
+    }
+    .block-6 img {
+        position: absolute;
+        right: 64px;
+        top: -90%;
+        
+    }
     
 }
 
-@media (min-width: 320px) and(max-width: 1279px) {
-    
+@media (min-width: 320px) and (max-width: 1279px) {
+    /*   =========   block 5   =========   */
+    .block-5 {
+        background: #2E1E49;
+        height: 720px;
+        width: 100%;
+       
+    }
+    .block-5 .wrapper {
+        display: flex;
+        padding: 106px 0 0 10%;
+    }
+
+    .block-5 .wrapper .sistem {
+        margin-right: 74px;
+    }
+    .block-5 .web {
+        display: none;
+    }
+
+    .block-5 .wrapper .sistem h2 {
+        font-weight: 700;
+        font-size: 24.7px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+        color: #30FFCD;
+        text-transform: uppercase;
+        font-family: 'Oswald';
+        margin-bottom: 30px;
+    }
+
+    .block-5 .wrapper .sistem .title2 {
+        display: block;
+    }
+
+    .block-5 .wrapper .sistem .title1 {
+        display: none;
+    }
+
+    .block-5 .wrapper .choice {
+        display: flex;
+        width:353px;
+        margin-bottom: 48px;
+        padding: 15px;
+        border: 1px solid #30FFCD;
+        cursor: pointer;
+    }
+
+    .block-5 .wrapper .choice .option {
+        color: #30FFCD;
+        text-transform: uppercase;
+        font-family: 'Oswald';
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .block-5 .wrapper .choice .arrowdown {
+        margin: 10px 5px 0 auto;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #30FFCD;
+    }
+
+    .block-5 .wrapper .sistem .text {
+        width: 243px;
+    }
+
+    .block-5 .wrapper .sistem .text .text-inner {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .block-5 .wrapper .sistem .text p {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 26px;
+    }
+
+    .block-5 .wrapper .sistem .text img {
+        margin-right: 10px;
+    }
+
+    .block-5 .wrapper .btn {
+        width: 135.22px;
+        background: transparent;
+        color: #33DFC0;
+        padding: 10px;
+        border: 1px solid #33DFC0;
+        border-radius: 48px;
+        margin-top: 18.26px;
+        margin-left: -4px;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        cursor: pointer;
+    }
+
+    /*   =========   block 6   =========   */
+
+    .block-6 {
+        background: #fff;
+        padding: 74px 0 0 120px;
+    }
+
+    .block-6 .wrapper {
+        position: relative;
+    }
+    .block-6 .wrapper h2{
+        font-family: 'Oswald';
+        color: #382459;
+        font-weight: 700;
+        font-size: 24.7px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 17.2px;
+    }
+
+    .block-6 .wrapper p{
+        width: 284px;
+        color: #382459;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        margin-bottom: 74px;
+    }
+    .block-6 img {
+        display: none;
+        
+    }
 }
