@@ -823,4 +823,34 @@
         color: white;
         font-family: Montserrat;
     } 
+    .start{
+        position: absolute;
+        left: 32px;
+        top: 402px;
+        width: 198px;
+        height: 21px;
+        color: white;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-style: 13px;
+    }
+    .vector806{
+        position: absolute;
+        width: 160px;
+        left: 32px;
+        top: 421.3px;
+    }
+    .logosofadnsu img:first-child{
+        position: absolute;
+        left: 10%;
+        right: 63.76%;
+        bottom: 10.75%;
+    }
+    .logosofadnsu img:nth-child(2){
+        position: absolute;
+        width: 64px;
+        height: 37.63px;
+        left: 144px;
+        top: 464.43px;
+    }
 }
