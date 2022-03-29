@@ -8,8 +8,84 @@
 }
 
 @media (min-width: 1280px) {
-
-
+    .h1_div{
+        position: absolute;
+        width: 560px;
+        height: 140px;
+        left: 120px;
+        top: 222px; 
+    }
+    .students_h1{
+        font-size:64px;
+        text-transform: uppercase;
+        color: #30FFCD;
+        font-family: Oswald;
+        font-weight: 700;
+        line-height: 70px;
+    }
+    .studentsp p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: white;
+    }
+    .studentsp{
+        position: absolute;
+        width: 628px;
+        height: 84.49px;
+        left: 120px;
+        top: 376.01px;
+    }
+    .alq-img{
+        position: absolute;
+        width: 166.62px;
+        height: 39.29px;
+        left: 48.28px;
+        top: 40.45px;
+    }
+    .logosofadnsu img:first-child{
+        position: absolute;
+        left: 209.47px;
+        right: -207.65px;
+        top: 0%;
+        bottom: 30.94%;        
+    }
+    .logosofadnsu img:nth-child(2){
+        position: absolute;
+        width: 115.65px;
+        height: 68px;
+        left: 252px;
+        top: 28px;        
+    }
+    .right__side{
+        display: flex;
+        position: absolute;
+        width: 144px;
+        height: 28px;
+        left: 788.84px;
+        top: 48px;
+    }
+    .right__side p:first-child{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        color: white;
+    }
+    .num{
+        position: absolute;
+        width: 160px;
+        top: 0.92%;
+        bottom: 98.44%
+    }
+    .backpurple{
+        position: absolute;
+        width: 100%;
+        z-index: -4;
+    }
     /*   =========   block 3   =========   */
 
     .block-3 {
