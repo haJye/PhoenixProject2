@@ -47,12 +47,43 @@
     }
     .logosofadnsu img:first-child{
         position: absolute;
-        left: 209.47px;
-        right: -207.65px;
-        top: 0%;
-        bottom: 30.94%;        
+        left: 450px;
+        top: 50px;
+
+    }
+    .num{
+        position: absolute;
+        left: 250px;
+        color: white;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .start{
+        position: absolute;
+        width: 260px;
+        height: 24px;
+        left: 120px;
+        top: 508px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        color: white;
+    }
+    .vector806{
+        position: absolute;
+        width: 240px;
+        left: 120px;
+        top: 531px;
     }
     .logosofadnsu img:nth-child(2){
+        display: none;
+    }
+    .logosofadnsu img:nth-child(3){
         position: absolute;
         width: 115.65px;
         height: 68px;
@@ -81,10 +112,22 @@
         top: 0.92%;
         bottom: 98.44%
     }
-    .backpurple{
-        position: absolute;
+    .pcback{
+        position: relative;
         width: 100%;
-        z-index: -4;
+        height:820px;
+    }
+    .backpurple{
+        display: none;
+    }
+    .back2{
+        display: none;
+    } 
+    .back1{
+        display: none;
+    } 
+    .mainback{
+        display: none;
     }
     /*   =========   block 3   =========   */
 
@@ -560,6 +603,9 @@
 
 @media (min-width: 320px) and (max-width: 1279px) 
 {
+    .pcback{
+        display: none;
+    }
      /*   =========   block 3   =========   */
 
      .block-3 {
@@ -1038,6 +1084,15 @@
         height: 37.63px;
         right: 8%;
         top: 464.43px;
+    }
+    .num{
+        display: none;
+    }
+    .right__side p{
+        display: none;
+    }
+    .logosofadnsu img:nth-child(3){
+        display: none;
     }
 
 
