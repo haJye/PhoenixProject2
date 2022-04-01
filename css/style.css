@@ -1058,19 +1058,19 @@
     .start{
         position: absolute;
         left: 32px;
-        top: 402px;
-        width: 198px;
+        top: 442px;
+        width: 250px;
         height: 21px;
         color: white;
         font-family: Montserrat;
         font-weight: 600;
-        font-style: 13px;
+        font-size: 13px;
     }
     .vector806{
         position: absolute;
-        width: 160px;
+        width: 210px;
         left: 32px;
-        top: 421.3px;
+        top: 461.3px;
     }
     .logosofadnsu img:first-child{
         position: absolute;
